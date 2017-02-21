@@ -48,7 +48,7 @@ public abstract class PtrUIHandlerHook implements Runnable {
     /**
      * Hook should always have a resume action, which is hooked by this hook.
      *
-     * @param runnable
+     * @param runnable Runnable
      */
     public void setResumeAction(Runnable runnable) {
         mResumeAction = runnable;
